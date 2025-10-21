@@ -1,6 +1,4 @@
 import { ArrayMinSize, IsArray, ValidateNested } from "class-validator";
-import { OrderStatus } from "generated/prisma";
-import { OrderStatusList } from "../enum/order.enum";
 import { Type } from "class-transformer";
 import { OrderItemDto } from "./order-item.dto";
 
